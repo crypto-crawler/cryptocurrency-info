@@ -1,0 +1,36 @@
+{
+  "name": "cryptocurrency-info",
+  "version": "0.0.1",
+  "description": "All cryptocurrencies meta information.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "source": "index.js",
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cli.js",
+    "tokens.json"
+  ],
+  "scripts": {
+    "start": "node ./cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulmachine/cryptocurrency-info.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "blockchain"
+  ],
+  "author": "soulmachine",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/soulmachine/cryptocurrency-info/issues"
+  },
+  "homepage": "https://github.com/soulmachine/cryptocurrency-info"
+}
